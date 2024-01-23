@@ -1,0 +1,84 @@
+.about-container {
+  background: #161625;
+  min-height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+.about {
+  width: 70%;
+}
+.footer-container {
+  text-align: center;
+  margin-top: 60px;
+}
+.footer-description {
+  line-height: 50px;
+  color: #94a3b8;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.git {
+  width: 48px;
+  height: 52px;
+  color: #cbd5e1;
+}
+.instagram {
+  width: 42px;
+  height: 52px;
+  color: #cbd5e1;
+}
+.twitter {
+  width: 42px;
+  height: 52px;
+  color: #cbd5e1;
+}
+.footer-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.about-heading {
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.question {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #94a3b8;
+}
+.answer {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #007bff;
+}
+.faqsList {
+  list-style-type: none;
+  margin-top: 50px;
+}
+.item {
+  margin-left: -30px;
+  margin-bottom: 20px;
+}
+.loader-container {
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

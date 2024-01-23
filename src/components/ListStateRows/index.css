@@ -1,0 +1,58 @@
+.list-state {
+  display: flex;
+  height: 60px;
+  padding-right: 20px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 20px;
+  width: 100%;
+}
+.state-name {
+  width: 70px;
+  margin-left: -10px;
+  width: 150px;
+}
+.state-population {
+  text-align: right;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  color: #94a3b8;
+  display: flex;
+  justify-content: flex-end;
+}
+.main {
+  width: 200px;
+  text-align: right;
+}
+.state-name {
+  text-align: start;
+}
+.state-confirmed {
+  color: #ff073a;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+}
+.state-active {
+  color: #007bff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+}
+.state-recovered {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  color: #28a745;
+}
+.state-deceased {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  color: #6c757d;
+}

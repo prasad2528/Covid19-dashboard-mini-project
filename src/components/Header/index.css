@@ -1,0 +1,49 @@
+.header-container {
+  min-height: 80px;
+  background: #1e1e30;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  margin: 0;
+  color: #ffffff;
+}
+.span-heading {
+  color: #3b82f6;
+}
+.header-card-container {
+  width: 80%;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+.button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+.list-container {
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+}
+.highlite {
+  color: blue;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+.normal {
+  color: #fff;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
