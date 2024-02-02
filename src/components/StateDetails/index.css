@@ -1,0 +1,111 @@
+.state-container {
+  background: #161625;
+  min-height: 95vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 60px;
+}
+.state-detail-name {
+  background-color: #0284c729;
+  height: 65px;
+  border-radius: 32px;
+  padding: 10px 20px 20px 20px;
+  font-family: HK Grotesk;
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  color: #0ea5e9;
+}
+.state-details-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.state-main-container {
+  width: 70%;
+}
+.test-heading {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #94a3b8;
+}
+.test-results {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #94a3b8;
+}
+.date {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 20px;
+  padding-left: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.card-case {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+.top-districts {
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ff073a;
+  margin-bottom: 40px;
+}
+.top-districts-container {
+  width: 70%;
+  margin-top: 20px;
+}
+.total-confirmed {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-right: 20px;
+}
+.district-name {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 20px;
+}
+.top-districts-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.district-item {
+  display: flex;
+  align-items: center;
+  width: 320px;
+  height: 60px;
+}
+.district-value {
+  font-size: 25px;
+  font-weight: 600;
+  font-family: 'Roboto';
+}

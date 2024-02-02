@@ -1,10 +1,9 @@
 import {Component} from 'react'
 import {MdOutlineSearch} from 'react-icons/md'
-import {FiGithub, FiTwitter} from 'react-icons/fi'
 import Loader from 'react-loader-spinner'
-import {IoLogoInstagram} from 'react-icons/io5'
 import Header from '../Header'
 import ListStateRows from '../ListStateRows'
+import Footer from '../Footer'
 import './index.css'
 
 const statesList = [
@@ -335,12 +334,6 @@ class Home extends Component {
   )
 
   render() {
-    const {match} = this.props
-    const {params} = match
-    const {stateCode} = params
-    console.log('id is')
-    const {data} = this.state
-    console.log(stateCode === data[0].state_code)
     const {
       totalConfirmed,
       totalRecovered,
@@ -418,19 +411,7 @@ class Home extends Component {
               {this.renderTableView()}
             </>
           )}
-          <footer className="footer-container">
-            <h1 className="heading">
-              COVID19<span className="span-heading">INDIA</span>
-            </h1>
-            <p className="footer-description">
-              We stand with everyone fighting on the front lines
-            </p>
-            <div className="footer-icons">
-              <FiGithub className="git" />
-              <IoLogoInstagram className="instagram" />
-              <FiTwitter className="twitter" />
-            </div>
-          </footer>
+          <Footer />
         </div>
       </>
     )

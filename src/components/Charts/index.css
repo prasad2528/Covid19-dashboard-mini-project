@@ -1,0 +1,23 @@
+.red-graph {
+  background-color: #331427;
+}
+.blue-graph {
+  background-color: #132240;
+}
+.green-graph {
+  background-color: #182829;
+}
+.ash-graph {
+  background-color: #1c1c2b;
+}
+.chart-graph {
+  padding: 20px;
+  margin: 40px;
+  border-radius: 12px;
+}
+.charts-heading {
+  margin-top: 40px;
+}
+.charts-container {
+  width: 70%;
+}

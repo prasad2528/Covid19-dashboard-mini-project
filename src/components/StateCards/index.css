@@ -1,0 +1,27 @@
+.cases-details {
+  list-style-type: none;
+  width: 70%;
+}
+.box1 {
+  background-color: #331427;
+}
+.box2 {
+  background-color: #132240;
+}
+.box3 {
+  background-color: #182829;
+}
+.box4 {
+  background-color: #212230;
+}
+.card-item {
+  text-align: center;
+  line-height: 50px;
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+}

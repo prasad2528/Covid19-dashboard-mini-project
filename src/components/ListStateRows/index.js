@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom'
 import './index.css'
 
 const ListStateRows = props => {
@@ -15,7 +16,9 @@ const ListStateRows = props => {
     listOfConfirmed - listOfRecovered - listOfDeceased - listOfOther
   return (
     <li className="list-state" key={stateCode} id={stateCode}>
-      <p className="state-name main">{stateName}</p>
+      <Link to={`/state/${stateCode}`} className="link-item">
+        <p className="state-name main">{stateName}</p>
+      </Link>
       <p className="state-confirmed main">{listOfConfirmed}</p>
       <p className="state-active main">{active}</p>
       <p className="state-recovered main">{listOfRecovered}</p>

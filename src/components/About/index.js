@@ -1,7 +1,6 @@
 import {Component} from 'react'
 import Loader from 'react-loader-spinner'
-import {FiGithub, FiTwitter} from 'react-icons/fi'
-import {IoLogoInstagram} from 'react-icons/io5'
+import Footer from '../Footer'
 import Header from '../Header'
 import './index.css'
 
@@ -61,19 +60,7 @@ class About extends Component {
               {this.renderFaqs()}
             </div>
           )}
-          <footer className="footer-container">
-            <h1 className="heading">
-              COVID19<span className="span-heading">INDIA</span>
-            </h1>
-            <p className="footer-description">
-              We stand with everyone fighting on the front lines
-            </p>
-            <div className="footer-icons">
-              <FiGithub className="git" />
-              <IoLogoInstagram className="instagram" />
-              <FiTwitter className="twitter" />
-            </div>
-          </footer>
+          <Footer />
         </div>
       </>
     )
